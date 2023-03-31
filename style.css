@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 400px;
+    height: 300px;
+    background-color: rgb(238, 181, 235);
+    outline: 1px solid black;
+}
+
+.container__header {
+    display: flex;
+    justify-content: center;
+    color: rgb(194, 109, 188);
+    margin: 0 auto;
+}
+
+.message {
+    background-color: rgb(200, 244, 249);
+}
+
+.container__form {
+    display: flex;
+    justify-content: center;
+}
+
+.container__button {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background: rgb(255, 215, 67);
+}
